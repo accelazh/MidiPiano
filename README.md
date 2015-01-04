@@ -1,0 +1,1 @@
+Trying to convert code into midi music? When a programmer is coding, music is played from his/her keyboard? Or, even more, convert everything into a series of midi notes. The idea is that if midi notes are properly mixed, everything can sounds like music. Built in my school time.

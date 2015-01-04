@@ -1,0 +1,5 @@
+Most programs that avail themselves of the Java Sound API's MIDI package do so to synthesize sound. The entire apparatus of MIDI files, events, sequences, and sequencers, which was previously discussed, nearly always has the goal of eventually sending musical data to a synthesizer to convert into audio. (Possible exceptions include programs that convert MIDI into musical notation that can be read by a musician, and programs that send messages to external MIDI-controlled devices such as mixing consoles.)
+
+The Synthesizer interface is therefore fundamental to the MIDI package. This page shows how to manipulate a synthesizer to play sound. Many programs will simply use a sequencer to send MIDI file data to the synthesizer, and won't need to invoke many Synthesizer methods directly. However, it's possible to control a synthesizer directly, without using sequencers or even MidiMessage objects, as explained near the end of this page.
+
+The synthesis architecture might seem complex for readers who are unfamiliar with MIDI. Its API includes three interfaces:
